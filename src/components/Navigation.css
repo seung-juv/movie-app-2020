@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  padding: 30px 50px;
+  background: rgb(20, 21, 23);
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+header a {
+  color: rgba(255, 255, 255, 0.88);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+header a:not(:last-child) {
+  margin-right: 15px;
+}

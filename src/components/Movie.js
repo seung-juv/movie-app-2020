@@ -3,7 +3,7 @@ import propTypes from "prop-types";
 import "./Movie.css";
 
 const Movie = ({ year, title, summary, medium_cover_image, genres }) => {
-  const [dataView, setdataView] = useState(true);
+  const [dataView, setdataView] = useState(false);
   return (
     <div
       className="movie"
